@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/alert_dialog_shape.xml" value="0.17962962962962964" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/bg_btn.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/bg_item_rv_active_step_circle.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/btn_end_shape.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/btn_service_result_shape.xml" value="0.13148148148148148" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/button_change_profile_shape.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/button_ripple.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/button_shape.xml" value="0.22" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/change_profile_security_shape.xml" value="0.212890625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/edit_text_background.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/english_btn_shape.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/finland_btn_shape.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/home_black.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/ic_category_black.xml" value="0.12" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/ic_category_purple.xml" value="0.2" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/ic_group_107.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/ic_outline_info_24.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/ic_shopping_black.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/ic_shopping_blue.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/image_back_border.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/login_background.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/number_shape.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/number_shape_selected.xml" value="0.18" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/popup_googlemap_shape.xml" value="0.2529296875" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/register_now_background.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/service_source_shape.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/sign_out_shape.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/spiner.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/text_back_border.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/top_bar_shape.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/topbar_shape.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/drawable/yellow_background.xml" value="0.25" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/activity_active_lesson.xml" value="0.18" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/activity_home.xml" value="0.9210526315789473" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/alertdialog_service.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/bottom_navigation.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/bottom_navigation_item.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_action_bar_time.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_active_lesson.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_active_lesson_show_move.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_active_question.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_base_auth.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_change_profile.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_change_security_code.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_google_map.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_intro_slider0.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_intro_slider3.xml" value="0.18" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_login.xml" value="0.17801047120418848" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_register.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_register_inter_pin.xml" value="0.1511627906976744" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_report.xml" value="0.33" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_result.xml" value="0.18" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_service.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_set_info.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_setting.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_sp.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_test.xml" value="0.18" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_test_five.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_test_four.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_test_three.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_test_two.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_test_two2.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_view_pager.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/fragment_welcome_to_name_app.xml" value="0.18" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/item_rv_active_lesson.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/item_rv_active_step.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/popup_googlemap.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/popup_googlemap_shape.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/service.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/layout/service_top_item.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/debugnavigationsinglefragment/app/src/main/res/menu/menu_bottom_nav.xml" value="0.19947916666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

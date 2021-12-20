@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/layout_background"
+        tools:context=".ActiveQuestionFragment">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:background="@drawable/topbar_shape"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/llTopBarChangeProfile"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60sdp"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+                <ImageView
+                    android:id="@+id/group33"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txt_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="6"
+                    android:fontFamily="@font/segoebold"
+                    android:gravity="center"
+                    android:text="Setting"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_20ssp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/group32"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_outline_info_24"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <TextView
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_change_profile_shape"
+            android:padding="@dimen/_5sdp"
+            android:paddingStart="@dimen/_15sdp"
+            android:text="Language"
+            android:textColor="@color/blue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bottomNavigationView"
+            app:layout_constraintVertical_bias="0.046"
+            tools:layout_editor_absoluteX="30dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_change_profile_shape"
+            android:padding="@dimen/_5sdp"
+            android:paddingStart="@dimen/_15sdp"
+            android:text="Notification"
+            android:textColor="@color/blue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintVertical_bias="0.028"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sign_out_shape"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:paddingStart="@dimen/_15sdp"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.037"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

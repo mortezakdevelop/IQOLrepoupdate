@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/spFragment">
+
+    <fragment
+        android:id="@+id/welcomeToNameAppFragment"
+        android:name="com.example.debugnavigationsinglefragment.WelcomeToNameAppFragment"
+        tools:layout="@layout/fragment_welcome_to_name_app"
+        android:label="WelcomeToNameAppFragment">
+
+
+        <action
+            android:id="@+id/action_welcomeToNameAppFragment_to_loginFragment2"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/introSlider0Fragment"
+        android:name="com.example.debugnavigationsinglefragment.IntroSlider0Fragment"
+        android:label="IntroSlider0Fragment" >
+        <action
+            android:id="@+id/navigateFromIntroSlider0FragmentToIntroSlider3Fragment"
+            app:destination="@id/introSlider3Fragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/introSlider3Fragment"
+        android:name="com.example.debugnavigationsinglefragment.IntroSlider3Fragment"
+        android:label="IntroSlider3Fragment" >
+        <action
+            android:id="@+id/navigateFromIntroSlider3FragmentToWelcomToNameAppFragment"
+            app:destination="@id/welcomeToNameAppFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.debugnavigationsinglefragment.LoginFragment"
+        tools:layout="@layout/fragment_login"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/navigateFromLoginFragmentToHome"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.debugnavigationsinglefragment.RegisterFragment"
+        tools:layout="@layout/fragment_register"
+        android:label="RegisterFragment" >
+        <action
+            android:id="@+id/navigateToRegisterFragmentToRegisterInterPinFragment"
+            app:destination="@id/registerInterPinFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerInterPinFragment"
+        android:name="com.example.debugnavigationsinglefragment.RegisterInterPinFragment"
+        android:label="RegisterInterPinFragment" >
+        <action
+            android:id="@+id/navigateFromRegisterPinFragmentToTestFragment"
+            app:destination="@id/testFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/activeQuestionFragment"
+        android:name="com.example.debugnavigationsinglefragment.ActiveQuestionFragment"
+        android:label="ActiveQuestionFragment" />
+    <fragment
+        android:id="@+id/activeLessonFragment"
+        android:name="com.example.debugnavigationsinglefragment.ActiveLessonFragment"
+        android:label="ActiveLessonFragment" >
+        <action
+            android:id="@+id/navigateFromActiveLessonFragmentToTestFragment"
+            app:destination="@id/testFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.example.debugnavigationsinglefragment.ServiceFragment"
+        android:label="ServiceFragment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.debugnavigationsinglefragment.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/navigateFromHomeFragmentToServiceFragment"
+            app:destination="@id/serviceFragment" />
+        <action
+            android:id="@+id/navigateFromHomeFragmentToActiveLessonFragment"
+            app:destination="@id/activeLessonFragment" />
+        <action
+            android:id="@+id/navigateFromHomeFragmentToActiveQuestionFragment"
+            app:destination="@id/activeQuestionFragment" />
+        <action
+            android:id="@+id/navigateFromHomeFragmentToProfileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.debugnavigationsinglefragment.ProfileFragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/navigateFromProfileFragmentToChangeProfileFragment"
+            app:destination="@id/changeProfileFragment" />
+        <action
+            android:id="@+id/navigateFromProfileFragmentToActionTimeBarFragment"
+            app:destination="@id/actionTimeBarFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+        <action
+            android:id="@+id/navigateFromProfileFragmentToSettingFragment"
+            app:destination="@id/settingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.example.debugnavigationsinglefragment.ReportFragment"
+        android:label="ReportFragment" />
+    <fragment
+        android:id="@+id/spFragment"
+        android:name="com.example.debugnavigationsinglefragment.SpFragment"
+        android:label="fragment_sp"
+        tools:layout="@layout/fragment_sp" >
+        <action
+            android:id="@+id/navigateFromSpFragmentToIntroSlider0Fragment"
+            app:destination="@id/introSlider0Fragment" />
+        <action
+            android:id="@+id/action_spFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/changeProfileFragment"
+        android:name="com.example.debugnavigationsinglefragment.ChangeProfileFragment"
+        android:label="ChangeProfileFragment" />
+    <fragment
+        android:id="@+id/actionTimeBarFragment"
+        android:name="com.example.debugnavigationsinglefragment.ActionTimeBarFragment"
+        android:label="ActionTimeBarFragment" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.debugnavigationsinglefragment.SettingFragment"
+        android:label="SettingFragment" />
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.debugnavigationsinglefragment.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" >
+        <action
+            android:id="@+id/navigateFromTestFragmentToTestTwoFragment"
+            app:destination="@id/testTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testTwoFragment"
+        android:name="com.example.debugnavigationsinglefragment.TestTwoFragment"
+        android:label="TestTwoFragment" >
+        <action
+            android:id="@+id/navigateFromTestTwoFragmentToTestThreeFragment"
+            app:destination="@id/testThreeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testThreeFragment"
+        android:name="com.example.debugnavigationsinglefragment.TestThreeFragment"
+        android:label="TestThreeFragment" >
+        <action
+            android:id="@+id/navigateFromTestThreeFragmentToTestFourFragment"
+            app:destination="@id/testFourFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testFourFragment"
+        android:name="com.example.debugnavigationsinglefragment.TestFourFragment"
+        android:label="TestFourFragment" >
+        <action
+            android:id="@+id/navigateeFromTestFourFragmentToTestFiveFragment"
+            app:destination="@id/testFiveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testFiveFragment"
+        android:name="com.example.debugnavigationsinglefragment.TestFiveFragment"
+        android:label="TestFiveFragment" >
+        <action
+            android:id="@+id/navigateFromTestFiveFragmentToTestSixFragment"
+            app:destination="@id/testSixFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testSixFragment"
+        android:name="com.example.debugnavigationsinglefragment.TestSixFragment"
+        android:label="fragment_test_two"
+        tools:layout="@layout/fragment_test_two" >
+        <action
+            android:id="@+id/navigateFromTestSixFragmentToResultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.debugnavigationsinglefragment.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <action
+            android:id="@+id/navigateFromResultFragmentToServiceFragment"
+            app:destination="@id/serviceFragment" />
+        <action
+            android:id="@+id/navigateFromResultFragmentToGoogleMapFragment"
+            app:destination="@id/googleMapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/googleMapFragment"
+        android:name="com.example.debugnavigationsinglefragment.GoogleMapFragment"
+        android:label="GoogleMapFragment" >
+        <action
+            android:id="@+id/navigateFromGoogleMapFragmentToGoogleMapPopUp"
+            app:destination="@id/googleMapPopUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/googleMapPopUp"
+        android:name="com.example.debugnavigationsinglefragment.GoogleMapPopUp"
+        android:label="GoogleMapPopUp" />
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.debugnavigationsinglefragment.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_viewPagerFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+
+</navigation>

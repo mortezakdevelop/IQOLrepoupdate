@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".WelcomeFoNameAppFragment">
+
+        <ImageView
+            android:layout_width="@dimen/_190sdp"
+            android:layout_height="@dimen/_190sdp"
+            android:src="@drawable/idea" />
+
+        <TextView
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center"
+            android:text="WELCOME"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_30sdp"
+            android:text="We can help you to experience a better Quality of Life."
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_30sdp"
+            android:text="By improving"
+            android:textColor="@color/white"/>
+
+<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_30sdp"
+            android:text=" .Money"
+            android:textColor="@color/white"/>
+
+<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_30sdp"
+            android:text=" .Concentration"
+            android:textColor="@color/white"/>
+
+<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_30sdp"
+            android:text=" .Attention"
+            android:textColor="@color/white"/>
+
+<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_30sdp"
+            android:text=" .Sleep disturbance"
+            android:textColor="@color/white"/>
+
+<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_30sdp"
+            android:text=" .Pain"
+            android:textColor="@color/white"/>
+
+<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_30sdp"
+            android:text=" .Moon"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/signIn"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:background="@drawable/yellow_background"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="sign in"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/registerNow"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/register_now_background"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="register now"
+            android:textColor="@color/yellow" />
+
+    </LinearLayout>
+
+</layout>

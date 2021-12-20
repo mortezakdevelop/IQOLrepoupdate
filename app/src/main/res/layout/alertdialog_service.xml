@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="340dp"
+    android:layout_gravity="center"
+    android:background="@drawable/alert_dialog_shape"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp">
+
+    <TextView
+        android:id="@+id/alertDialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_5ssp"
+        android:text="Cancer A.1"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/_20ssp" />
+
+    <TextView
+        android:id="@+id/alertDialog_subTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet metus nibh, a fringilla neque scelerisque non. Sed ut nulla magna. Morbi urna lectus, lobortis vitae consequat sed, gravida id neque. Fusce interdum vel nisi sed fringilla. Donec id turpis et nisl aliquam gravida."
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_tv_video" />
+
+            <TextView
+                android:paddingLeft="@dimen/_5sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6 hours on-demand video"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_time" />
+
+            <TextView
+                android:paddingLeft="@dimen/_5sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 month"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_money" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="35.99$" />
+
+            <TextView
+                android:background="@drawable/button_shape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Buy"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingStart="@dimen/_13sdp"
+                android:paddingEnd="@dimen/_13sdp"
+                android:layout_marginStart="@dimen/_150sdp"
+                android:textSize="@dimen/_18ssp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

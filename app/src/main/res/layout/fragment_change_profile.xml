@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/layout_background"
+        tools:context=".ActiveQuestionFragment">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:background="@drawable/topbar_shape"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/llTopBarChangeProfile"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60sdp"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+                <ImageView
+                    android:id="@+id/group33"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txt_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="6"
+                    android:fontFamily="@font/segoebold"
+                    android:gravity="center"
+                    android:text="ChangeProfile"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_20ssp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/group32"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_outline_info_24"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.147"
+            tools:layout_editor_absoluteX="0dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_changeProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:src="@drawable/profile"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/tv_changeProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="change photo"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/_10ssp"
+
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/iv_changeProfile"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.365" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/ll_FieldChangeProfile"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:layout_marginEnd="@dimen/_18sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2"
+            app:layout_constraintVertical_bias="0.057">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_change_profile_shape"
+                android:hint="Name"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:padding="@dimen/_5sdp"
+                android:paddingStart="@dimen/_15sdp"
+                android:textColorHint="@color/blue"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="322dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_change_profile_shape"
+                android:hint="Email"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:padding="@dimen/_5sdp"
+                android:paddingStart="@dimen/_15sdp"
+                android:textColorHint="@color/blue"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="322dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_change_profile_shape"
+                android:hint="Phone Number"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:padding="@dimen/_5sdp"
+                android:paddingStart="@dimen/_15sdp"
+                android:textColorHint="@color/blue"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="322dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_change_profile_shape"
+                android:hint="Level"
+                android:padding="@dimen/_5sdp"
+                android:paddingStart="@dimen/_15sdp"
+                android:textColorHint="@color/blue"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="322dp" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

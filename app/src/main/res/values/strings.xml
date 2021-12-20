@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">debug navigation single fragment</string>
+    <string name="intro3">Hello Dear "name"</string>
+    <string name="intro32">By playing this video, you will become more familiar with the features of this application</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="register">register</string>
+    <string name="resend">resend</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="active_lessons">Active Lessons</string>
+    <string name="message_result">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown.</string>
+
+    <string name="no">No</string>
+
+    <string name="_25">25</string>
+
+    <string name="pass">Pass</string>
+
+    <string name="score_status">score status</string>
+
+    <string name="_1_question_no_1">1. Question No.1</string>
+
+    <string name="calculator">Simple Calculator</string>
+
+    <string name="enter_first_number">Enter first number</string>
+
+    <string name="enter_second_number">Enter second number</string>
+
+    <string name="field_managing">مدیریت مزرعه</string>
+
+    <string name="constantre">ساخت کنستانتره</string>
+
+    <string name="making_food">ساخت خوراک</string>
+
+    <string name="customers">خریداران</string>
+
+    <string name="milky">شیری</string>
+
+    <string name="name">نام</string>
+
+    <string name="cost_gift">قیمت جایزه</string>
+
+    <string name="basic_cost">قیمت پایه</string>
+
+    <string name="fat_percent">درصد چربی</string>
+
+    <string name="weight">وزن</string>
+
+    <string name="excel">ورود اکسل</string>
+
+    <string name="registerr">ثبت</string>
+
+    <string name="register_info">ثبت اطلاعات</string>
+
+    <string name="new_record">ثبت جدید</string>
+
+    <string name="register_changes">ثبت تغییرات</string>
+
+    <string name="cow_types">نوع دسته گاو</string>
+
+    <string name="unmilky">غیر شیری</string>
+
+    <string name="saloon_name">نام سالن</string>
+
+    <string name="cows">دسته گاو</string>
+
+    <string name="saloon_number">شماره سالن</string>
+
+    <string name="number_of_cows">تعداد دام</string>
+
+    <string name="food_selection">انتخاب خوراک</string>
+
+    <string name="select">انتخاب کنید</string>
+
+    <string name="report">گزارش</string>
+
+    <string name="support">پشتیبانی</string>
+
+    <string name="profile">پرفایل</string>
+
+    <string name="test">test</string>
+
+    <string name="end">End</string>
+
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dumm</string>
+
+    <string name="active_lesson">Active lesson</string>
+
+    <string name="lorem2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</string>
+
+    <string name="go_to_counter">Go To Counter</string>
+
+    <string name="go_to_register">Go To Register</string>
+
+    <string name="go_to_buyer">Go To Buyer</string>
+
+    <string name="otp">OTP</string>
+
+    <string name="go_to_calculator">Go To Calculator</string>
+
+    <string name="search">جستجو</string>
+
+    <string name="excel_output">خروجی اکسل</string>
+
+    <string name="food">خوراک</string>
+
+    <string name="food_name">نام خوراک : mix1</string>
+
+    <string name="mix1">نام کنستانتره : mix1</string>
+
+    <string name="concentrate_name">نام کنستانتره: </string>
+
+    <string name="builder">سازنده : محمودی</string>
+
+    <string name="concentrate">کنستانتره</string>
+
+    <string name="making_concentrate">ساخت کنستانتره</string>
+
+    <string name="reg_concentrate">ثبت کنستانتره</string>
+
+    <string name="archive_concentrate">آرشیو کنستانتره</string>
+
+    <string name="date"> تاریخ آخرین ویرایش :</string>
+
+    <string name="price">قیمت هر کیلو کنستانتره :</string>
+
+    <string name="edit">ویرایش</string>
+</resources>
+
